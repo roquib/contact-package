@@ -15,5 +15,12 @@
         "psr-4": {
             "Charghat\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Charghat\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
